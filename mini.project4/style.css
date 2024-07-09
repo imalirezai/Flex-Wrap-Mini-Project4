@@ -1,0 +1,19 @@
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: skyblue;
+    padding: 10px;
+
+}
+
+
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 200px;
+    background-color: #ddd;
+    height: 150px;
+    font-weight: bolder;
+}
